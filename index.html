@@ -1,92 +1,176 @@
+<!DOCTYPE html>
+
 <html>
+
 <head>
-	<title>My Resume</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Resume</title>
+     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, verdana,sans-serif; line-height: 24px; background-color: lightblue ; }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; border-radius: 90%; }
+        .duration {
+			color: #5da4d9;
+			font-size:15px;
+		}
+
+		.social-media:hover{
+			color: #5da4d9
+			cursor: pointer;
+			color: blue;
+		}
+        h1 {font-family:verdana,sans-serif; margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 3px solid #999;color: darkblue; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; font-size: 25px; position: relative;color: black; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: verdana,sans-serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 4px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 50px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: verdana,sans-serif; color: black; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; color: darkblue;}
+
+     </style>
 </head>
+
 <body>
-	<div class="container">
-		<div class="sidebar">
-			<div class="sidebar-top">
-				<img class="profile-image" image src="C:\Users\Aditya\Pictures\20141112_135635.jpg",height="300",width="200"/>
-								<div class="profile-basic">
-					<h1 class="name">Aditya Acharya</h1>
-					<h4 class="designation"> Student </h4>
-				</div>
-			</div>
-			<div class="profile-info">
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 	
-				</p>
-			</div>
-			<div class="profile-info">
-				<b><p class="key">Contact : </p></b>
-				<p class="value">7779009273</p>
-			</div>
 
-			<div class="profile-info">
-				<b><p class="key" >Email : </p></b>
-				<p class="value" >adi54320@gmail.com</p>
-			</div>
+    <div id="page-wrap">
+    
+        <img src="images/hello.png" height="270", width="280" alt= "Aditya" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+        <h1 class="fn">Aditya Acharya</h1>
+        
+           
+        </div>
+                
+        <div id="objective">
+            <p><b>Objective</b></p><p>
+                To secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my professional career.I am an outgoing and energetic (ask anybody) young professional, seeking a 
+                career that fits my professional skills, personality, and murderous tendencies. 
+                
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
 
-			<div class="profile-info">
-				<b><p class="key" >Address : </p></b>
-				<p class="value" >C-103 V.Icon<br/>
-New SG Road,Gota<br/>
-Ahmedabad</p>
-			</div>
-			<div class="profile-info">
-				<a class="social-media" href="http://facebook.com/aditya.acharya1995" target="_blank" >Facebook</a>
-				<a class="social-media" href="http://facebook.com/anupama.panchal" target="_blank" >Linkedin</a>
-				<a class="social-media" href="http://facebook.com/anupama.panchal" target="_blank" >Twitter</a>
-				<a class="social-media" href="http://facebook.com/anupama.panchal" target="_blank" >Instagram</a>
-			</div>
-		</div>
-		<div class="content">
-			<div class="work-experience">
-				<h1 class="heading">Work Experience</h1>
-				<div class="info">
-					<p class="sub-heading">UI/UX Designer @Academy</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             <dt><h2>About</h2></dt>
+            <dd>
+               <i class="fa fa-phone-square " aria-hidden="true"></i>&nbsp<b>Contact</b> : 7779009273 </p>
+               <p class="key"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp<b>Email</b> : adi54320@gmail.com</p>
+				<p class="key"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp<b>Address</b> : Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				
+            </dd>
+             <dd class="clear"></dd>
+             <dd class="clear"></dd>
+            
+            <dt><h2>Education</h2></dt>
+            <dd>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp<b>B.E(COMPUTER) @ ASOIT College</b></p>
+                <p class="duration">Running</p>
+					<p>Bachelor’s Degree in Computer Science from ASOIT University affiliated with GTU </p>
+            </dd>
+            <dt><h2></h2></dt>
+             <dd>
+                <i class="fa fa-university" aria-hidden="true"></i>&nbsp<b>HSC(12th) @LFH School</b></p>
+                <p class="duration">JAN 2016 - DEC 2016</p>
+					<p>HSC (Science) from CBSE Board with First class..</p>
+            </dd>
+             <dt><h2></h2></dt>
+             <dd>
+                <i class="fa fa-university" aria-hidden="true"></i>&nbsp<b>SSC(10th) Degree @LFH School</b></p>
+                <p class="duration">JAN 2016 - DEC 2016</p>
+					<p>SSC from CBSE Board with distinction. </p>
+            </dd>
+
+            
+            <dd class="clear"></dd>
+            <dd class="clear"></dd>
+
+            <dt><h2>Skills</h2></dt>
+            <dd>
+                <p><b><i class="fa fa-map-marker" aria-hidden="true"></i>&nbspOffice skills</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt</p>
+            </dd>
+            <dt><h2></h2></dt>
+            <dd>    
+               <p> <b><i class="fa fa-laptop" aria-hidden="true"></i>&nbspComputer skills</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt</p>
+            </dd>
+            
+           <dd class="clear"></dd>
+           <dd class="clear"></dd>
+
+            
+            <dt><h2>Experience</h2></dt>
+            <dd>
+               <p><b>UI/UX Designer @Academy</b></p>
+                <ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="info">
-					<p class="sub-heading">Creative Director @DeviserWeb
-</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                   
+                </ul>
+                </dd>
+                <dt><h2></h2></dt>
+                <dd>
+                
+                <p><b>Graphics Designer @Creative Wrold</b></p>
+                <ul>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="info">
-					<p class="sub-heading">Graphics Designer @Creative Wrold</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-			<div class="education">
-				<h1 class="heading">Education</h1>
-				<div class="info">
-					<p class="sub-heading">Art & Multimedia @Oxford University
-</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="info">
-					<p class="sub-heading">Post Graduation @Lorem
-</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="info">
-					<p class="sub-heading">TTMP Degree @Creative School</p>
-					<p class="duration">JAN 2016 - DEC 2016</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            <dd class="clear"></dd>
+
+            
+            <dt><h2>Hobbies</h2></dt>
+            <dd>
+            	<ul>
+                    <p><i class="fa fa-book" aria-hidden="true"></i>&nbspReading Books</p>
+                    <p><i class="fa fa-gamepad" aria-hidden="true"></i>&nbspPlaying Cricket</p>
+                    <p><i class="fa fa-plane" aria-hidden="true"></i>&nbspTravelling</p>
+                   
+                </ul>
+
+            </dd>
+            
+            <dd class="clear"></dd>
+            <dd class="clear"></dd>
+
+            
+            <dt><h2>Contacts</h2></dt>
+            <dd>
+            
+				<p><a class="social-media" href="http://facebook.com/aditya.acharya1995" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>Facebook</a></p>
+				<p><a class="social-media" href="https://twitter.com/adit3400" target="_blank" ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>Twitter</a></p>
+				<p><a class="social-media" href="https://www.instagram.com/adityacharya/" target="_blank" ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>Instagram</a></p>
+			</dd>
+			
+            
+            
+        <div class="clear"></div>
+        <dd class="clear"></dd>
+
+    
+    </div>
+
 </body>
+
 </html>
